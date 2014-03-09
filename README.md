@@ -15,7 +15,7 @@ ok    Raft   141.193s
 This command executes test program which contains the test which checks the minory & majority failures. This program kills the servers one by one and checks the only one leader in maximum number of server killing bound.
 
 
-# Running the packages
+### Running the packages
 
 ```
 $ go run main.go 0 11110 /home/rahul/IdeaProjects/cloud/src
